@@ -1,0 +1,82 @@
+<% include partials/header %>
+
+<!-- ===================
+         Тело
+======================== -->
+<!-- jumbotron -->
+	<div class="blur course vac"></div>
+	<div class="container">
+		<div class="jumbotron myjumbo text-center">
+			<h1>Cоздавай лучшее вместе с нами</h1><br>
+			<p> Присоединяйся к быстрорастущей молодой команде и внеси свой вклад в разработку самого перспективного проекта в сфере online-образования</p>
+			<button class="btn btn-primary btn-material btn-lg text-center btn-width">Посмотреть вакансии</button> <button class="btn btn-primary btn-lg btn-width">Подать заявку</button> <br><br><br>
+			<p class="text-right">#evricamp_team</p>
+		</div>		
+	</div>
+ <!-- join us form -->
+ <div class="join_us_form">
+	<div class="container">
+		<h2 class="text-center">Вакансии</h2><br><br>
+		<table class="table table-striped">
+			<tr>
+				<th>#</th>
+				<th>Должность</th>
+				<th>Место работы</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>Специалист по back-end разработке(Node.js, mongodb)</td>
+				<td>г. Архангельск (возможна удаленная)</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Специалист по front-end разработке</td>
+				<td>г. Архангельск (возможна удаленная)</td>
+			</tr>
+		</table>
+		<br><br>
+		<h4>Не нашел себе место в этом списке? Тогда представься, расскажи нам о себе и, возможно, тебе найдется свободное кресло ;-)</h4>
+		<br><br>
+		<div class="row">
+					<div class="col-md-6">
+						<form>
+        					<div class="form-group">
+								<label for="vacFormName">Имя</label>
+								<input type="text" class="form-control" name="vacFormName" placeholder="напр. Иван">
+							</div>
+							<div class="form-group">
+								<label for="contactUsFormSurname">Фамилия</label>
+								<input type="text" class="form-control" name="vacFormSurname" placeholder="напр. Иванов">
+							</div>							
+							<div class="form-group">
+								<label for="vacFormEmail">Email адрес</label>
+								<input type="email" class="form-control" name="vacFormEmail" placeholder="напр. ivan@example.com">
+							</div>
+							<div class="form-group">
+								<label for="vacFormTelephone">Номер телефона</label>
+								<input type="tel" class="form-control" name="vacFormTelephone" placeholder="напр. +7(999)123-45-67">
+							</div>
+							<div class="form-group">
+								<label for="vacFormPosition">Желаемая должность</label>
+								<input type="text" class="form-control" name="vacFormPosition" placeholder="напр. Зам. Директора департамента по контролю за департаментами">
+							</div>
+					</div>
+					<div class="col-md-6">
+							<div class="form-group">
+								<label for="vacFormUrl">Ссылка на файл резюме</label>
+								<input type="text" class="form-control" name="vacFormUrl" placeholder="Ссылка на файл">
+							</div>
+							<div class="form-group">
+								<label for="vacText">О себе</label>
+								<textarea class="form-control" name="vacText" rows="9" maxlength="2000" placeholder="О себе" style="resize: vertical;"></textarea>
+							</div>
+							<button type="submit" class="btn btn-success btn-block">Отправить</button>
+					</div>
+				</div>
+		</div>
+	</div>	
+</div>
+
+
+
+<% include partials/footer %>
